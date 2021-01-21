@@ -8,6 +8,16 @@ while (i < 5){
 for (let i = 0; i <= 4; i += 1){
     console.log(i);
 }
+
+// For ..in Loop, these can be used to iterate through the keys of an object.
+let object = {
+    type: 'robot',
+    preference: 'evil'
+}
+for (key in object){
+    console.log(`${key}: ${object[key]}`);
+}
+
 // Reverse For Loop
 let array = ['I', 'am', 'a', 'dog']
 

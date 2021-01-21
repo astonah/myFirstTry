@@ -42,3 +42,30 @@ let mappedArray = array3.map(value => {
 
 console.log(mappedArray);
 
+
+let testObject = {
+    type: 'ball',
+    shape: 'round',
+    bounciess: 'good'
+}
+
+let anotherObject = {
+    type: 'toy',
+    liquid: 'no',
+    dangerous: 'no'
+}
+console.log(anotherObject);
+
+let objectChanger = (object, property, newProperty) => {
+    return object[property] = newProperty;
+}
+
+objectChanger(testObject, 'shape', 'sqaure');
+console.log(testObject);
+
+objectChanger(anotherObject, 'liquid', 'yes')
+console.log(anotherObject);
+
+
+
+
