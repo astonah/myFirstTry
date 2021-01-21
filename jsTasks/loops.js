@@ -29,7 +29,7 @@ for (let i = 0; i < myArray.length; i++){
     console.log('I must ' + myArray[i] + ' today!');
 }
 // Nested For Loop
-let array1 = ['a', 'b', 'c', 'd'];
+let array1 = ['a', 'b', 'c', 'd']; // this is the outer 'o' array, with each iteration of array item in array1, it will iterate through all of array2
 let array2 = [1, 2, 3, 4, 5, 6, 7];
 
 for (let o = 0; o < array1.length; o += 1){
